@@ -2,10 +2,10 @@ const mongo = require("mongoose");
 
 const booking = new mongo.Schema({
   name: String,
-  img: String,
   description: String,
+  email:String,
 });
 
-const Bookings = mongo.model("Bookings", booking);
+const Booking = mongo.model("Booking", booking);
 
-module.exports = Bookings;
+module.exports = Booking;
