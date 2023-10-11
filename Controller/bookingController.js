@@ -1,0 +1,1 @@
+const Booking= require("../Model/Bookings")
